@@ -1,0 +1,4 @@
+Makefile
+.git
+.DS_Store
+rsync_exclude.txt
