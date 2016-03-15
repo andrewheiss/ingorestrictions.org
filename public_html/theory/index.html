@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Theory of Authoritarian-INGO Relations | INGO Restrictions</title>
+
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600' rel='stylesheet' type='text/css'>
+
+    <!-- Pure CSS -->
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
+
+    <link rel="stylesheet" href="/css/temporary.css">
+
+    <style type="text/css">
+        body {
+            font-family: 'Source Sans Pro', sans-serif;
+            font-weight: 400;
+        }
+
+        svg {
+            border: solid 1px #ccc;
+            border: solid 1px #ccc;
+            font-weight: 300;
+            margin-bottom: 2em;
+        }
+
+        .regime-group {
+            font-weight: 600;
+        }
+
+        .ingo-group {
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <div class="home-menu pure-menu pure-menu-horizontal">
+        <a class="pure-menu-heading" href="/">INGO Restrictions</a>
+
+        <ul class="pure-menu-list">
+            <li class="pure-menu-item"><a href="/" class="pure-menu-link">Home</a></li>
+            <li class="pure-menu-item"><a href="/theory/" class="pure-menu-link">Theory</a></li>
+            <li class="pure-menu-item"><a href="http://data.ingorestrictions.org" class="pure-menu-link">Data</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="pure-g">
+    <div class="pure-u-1 main-content">
+        <h1>Theory simulation</h1>
+        <p>Play with the theory using the simulation below. Adjust regulations and flexibility with the sliders and drag and slide the ideal points.</p>
+        <p>
+          <label for="width_regime" 
+                 style="display: inline-block; text-align: right">
+                 <em>De facto</em> regime openness:
+          </label>
+          <input type="range" min="29" max="600" id="width_regime">
+
+          <label for="width_ingo" 
+                 style="display: inline-block; text-align: right; padding-left: 1em;">
+                 INGO flexibility:
+          </label>
+          <input type="range" min="29" max="600" id="width_ingo">
+        </p>
+        <div id="simulation"></div>
+
+        <h1>Kinda sorta hypotheses</h1>
+        <blockquote>
+        <p><strong>Regulatory environment for INGOs</strong><br />
+        {Tolerance, Constraint, Expulsion} = regime stability (H<sub>1</sub>) + regime preferences for INGO issue (H<sub>2</sub>)</p>
+        </blockquote>
+        <blockquote>
+        <p><strong>INGO response to regulatory environment</strong><br />
+        {Compliance, Mitigation, Antagonism} = regulatory environment + normative principles (H<sub>3</sub>) + operational flexibility (H<sub>4</sub>)</p>
+        </blockquote>
+
+        <h1>Theory explanation</h1>
+        <p>I hope to answer two questions with this project:</p>
+        <ol style="list-style-type: decimal">
+            <li>How do authoritarian regimes manage international NGOs that work in their countries?</li>
+            <li>How do international NGOs adjust their programming in response to the regulatory environment and domestic politics of the countries they target?</li>
+        </ol>
+        <p>I offer a novel theoretical framework to answer these questions. Using an adaptation of basic negotiation theory <span class="citation">(Mayer 2010; Raiffa 1982)</span>, I argue that the interaction between authoritarian regimes and INGOs in any given issue area (human rights, development, advocacy, etc.) can be modeled in simple two-dimensional policy space. Each actor has a preference for a certain level of advocacy or service provision, marked as solid circles in the figure (Regime<sub>ideal</sub> and INGO<sub>ideal</sub>). Regimes set and implement <em>de jure</em> policies to prevent INGO programming from going beyond their ideal point (the reserve value or “best alternative to a negotiated agreement” (BATNA) in negotiation theoretic terms), while INGOs will engage in programming that (when possible) fits within the bounds set by the regime. In addition to these ideal points, each actor has a range of flexibility in the implementation of their regulations or programming, shown in the horizontal lines flanking the ideal points (negotiation space in negotiation theory terms). The space where the two preference ranges overlap (the zone of possible agreement (ZOPA) in negotiation theory) determines both the regime’s <em>de facto</em> level of restrictions and the INGO’s actual mix of programming.</p>
+        
+        <p>An authoritarian regime’s INGO regulatory environment comprises two components: (1) formal <em>de jure</em> legislation and policies (represented by the ideal point) and (2) <em>de facto</em> implementation of those policies (represented by the negotiation space around the ideal point). I expect authoritarian regimes to set one of three broad policies towards international NGOs working in their regimes based on both the initial ideal point and the size of the issue’s ZOPA, each falling along a continuum of restrictiveness: (1) <em>tolerance</em>, or very few legal or actual restrictions on any activities, (2) <em>constraint</em>, or restrictions ranging from minor legal hurdles to major oppression or intimidation, and (3) <em>expulsion</em>, or a complete ban of all INGO activities. The larger the ZOPA, the more tolerant the regime will be about INGO programming and activities, and vice versa—when there is no overlap an INGO will face expulsion.</p>
+
+        <p>In turn, and analogous to the regime’s regulatory environment, an INGO’s response to authoritarian restrictions comprises two components: (1) the organization’s normative principles and ideals (represented by the ideal point) and (2) the organization’s amount of flexibility in actually implementing those principles (represented by the space around the ideal point). I expect INGOs to read with one of three general responses, each falling along a continuum of cooperation: (1) <em>compliance</em>, or tolerating and cooperating with the legal limits imposed by the regime, (2) <em>mitigation</em>, or creatively working around those policies to continue their work, and (3) <em>antagonism</em>, or ignoring and resisting those policies. The degree of cooperation between the two actors is a function of the distance between the two parties’ ideal points. INGOs that engage in programming close to the authoritarian regime’s preferences will be more compliant with the regulatory environment, while organizations that pursue more contentious programming will be more antagonistic.</p>
+
+        <p>You can play with the different ideal points and ranges in the simulation above, while the figure below demonstrates the full mix of possible regulatory environments and INGO responses:</p>
+
+        <div class="figure">
+        <img src="working_theory.png" alt="Possible authoritarian regulatory environments and corresponding INGO responses" />
+        <p class="caption">Possible authoritarian regulatory environments and corresponding INGO responses</p>
+        </div>
+
+        <h1 id="references">References</h1>
+        <div class="references">
+            <div id="ref-Mayer:2010">
+            <p>Mayer, Frederick. 2010. “Multi-Level Games.” In <em>Handbook on Multi-Level Governance</em>, eds. Henrik Enderlein, Sonja W<span>ä</span>lti, and Michael Z<span>ü</span>rn. Cheltenham, UK: Edward Elgar Publishing, 47–65.</p>
+            </div>
+            <div id="ref-Raiffa:1982">
+            <p>Raiffa, Howard. 1982. <em>The Art and Science of Negotiation</em>. Cambridge, MA: Belknap.</p>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<script src="http://d3js.org/d3.v3.min.js"></script>
+
+<script src="theory.js"></script>
+
+</body>
+</html>
